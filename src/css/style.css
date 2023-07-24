@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logIn {
+  background: #76b852;
+  background: rgb(141, 194, 111);
+  background: linear-gradient(90deg, rgb(141, 194, 111) 0%, rgb(118, 184, 82) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  min-height: 100vh;
+}
+#logIn .login-page {
+  width: 23rem;
+  padding: 8% 0 0;
+  margin: auto;
+}
+#logIn .form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 23rem;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 0.25rem;
+}
+#logIn .form .login-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#logIn .form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#logIn .form button {
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  font-weight: 400;
+  cursor: pointer;
+}
+#logIn .form button:nth-of-type(1) {
+  background: #4CAF50;
+}
+#logIn .form button:nth-of-type(2) {
+  margin-top: 1rem;
+  background: #4267B2;
+}
+#logIn .form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+#logIn .form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#layout .anticon[tabindex] {
+  font-size: 1.3rem;
+}
+#layout .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#layout .header .user {
+  margin-right: 2%;
+  font-size: 1rem;
+  border-radius: 3rem;
+}
+#layout .header .user img {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.btnLogOut {
+  color: red;
+}
+.btnLogOut:hover {
+  color: rgba(255, 0, 0, 0.5490196078);
+}
+
+.projectMembers {
+  display: flex;
+}
+
+.membersAvatar {
+  border-radius: 50%;
+  width: 2rem;
+  border: none;
+  height: 2rem;
+  outline: 1px white solid;
+  margin-right: 0.5rem;
+}
+
+.btnMember {
+  background: #4CAF50;
+  color: white;
+  outline: none;
+}
+.btnMember:focus {
+  opacity: 0.8;
+}
+.btnMember:hover {
+  opacity: 0.8;
+}
+
+.gutter-box {
+  padding: 8px 0;
+  background: #efefef;
+  height: 27rem;
+  color: #7b7b7b;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.gutter-box .gutter-box-header {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.gutter-box .img_cardDetail {
+  border-radius: 50%;
+  width: 2rem;
+}
+.gutter-box .card_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+.gutter-box .iconPriority-LM {
+  color: red;
+}
+.gutter-box .iconPriority-H {
+  color: rgb(50, 72, 240);
+}/*# sourceMappingURL=style.css.map */
